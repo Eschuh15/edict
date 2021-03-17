@@ -1,0 +1,3 @@
+token=deeznutz
+password=grug
+ipaddress=192.16.0.2
