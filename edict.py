@@ -1,7 +1,7 @@
+def loader():
 dic = {}
-with open("dict.txt") as file:
+with open() as file:
     for line in file:
         (key, val) = line.strip("\n").split("=")
         dic[key] = val
-
-print(dic)
+     return dic
