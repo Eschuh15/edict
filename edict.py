@@ -1,6 +1,6 @@
-def loader():
+def loader(fname):
 dic = {}
-with open() as file:
+with open(fname) as file:
     for line in file:
         (key, val) = line.strip("\n").split("=")
         dic[key] = val
